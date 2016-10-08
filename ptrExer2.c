@@ -30,7 +30,7 @@ int main()
 	printf("prin ptr %p \n", ptr);
 	//*ptr = 2;
 	//a = *ptr;
-	printf("prin *ptr to a %d", *ptr);
+	printf("prin *ptr to a %d", *ptr);      /* cannot for value without datasheet so line:33 not work here */
 	getchar();
 	return 0;
 
